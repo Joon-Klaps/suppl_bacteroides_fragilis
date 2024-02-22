@@ -8,13 +8,16 @@ Supplementary information with the article 'Large-scale genomic characterisation
 
 An overview table of the lineage specific genes identified in the B. fragilis pangenome. Based on the following conditions:
 
-<!-- - Genes present in > 95% of the strains of a lineage and < 5% of the strains of the other lineages -->
+-   Precision (PPV) ≥ 85%: At least 85% of genomes with the gene belong to a single lineage.
+-   Sensitivity ≥ 95%: At least 95% of genomes from the designated lineage possess the gene.
 
-### [Mobile genes](Supplementary_data/Mobile_genes/coinfinder_anno_mobile.tsv)
+### [Co-occuring Mobile genes](Supplementary_data/Mobile_genes/coinfinder_anno_mobile.tsv)
 
 An overview table of the mobile genes identified in the B. fragilis pangenome. Based on the following conditions:
 
-<!--  - Genes present in > 95% of the strains of a lineage and < 5% of the strains of the other lineages -->
+-   Co-occuring genes were identified with [Coinfinder V.1.0.8](https://github.com/fwhelan/coinfinder)
+-   Genomic proximity: at least one genome exhibits inter-gene locus standard deviation ≤ 15 units
+-   Lineage distribution: at least one assembly of a lineage harbors ≥ 80% of gene group, but no more than 16 out of 17 lineages contain a assembly with 80% of the gene group.
 
 ### Multi locus sequence typing
 
