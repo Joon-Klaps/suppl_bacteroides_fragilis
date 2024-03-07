@@ -19,11 +19,15 @@ An overview table of the lineage specific genes identified in the B. fragilis pa
 
 ### Supplementary Table 3: [Co-occuring Mobile genes](Supplementary_data/Mobile_genes/coinfinder_anno_mobile.tsv)
 
-An overview table of the mobile genes identified in the B. fragilis pangenome. Based on the following conditions:
+An overview table of the mobile genes identified in the _B. fragilis_ pangenome. Based on the following conditions:
 
 -   Co-occuring genes were identified with [Coinfinder V.1.0.8](https://github.com/fwhelan/coinfinder)
 -   Genomic proximity: at least one genome exhibits inter-gene locus standard deviation ≤ 15 units
 -   Lineage distribution: at least one assembly of a lineage harbors ≥ 80% of gene group, but no more than 16 out of 17 lineages contain a assembly with 80% of the gene group.
+
+### Supplementary Table 4: [Drug resistance](Supplementary_data/Drug_resistance/abricate_summary.tsv)
+
+An overview table of the drug resistance genes identified in the _B. fragilis_ strains using [Abricate](https://github.com/tseemann/abricate) and [NCBI AMRFinderPlus v3.10](https://doi.org/10.1128%2FAAC.00483-19).
 
 ## Supplementary Figures
 
