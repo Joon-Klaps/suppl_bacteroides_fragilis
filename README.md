@@ -56,7 +56,7 @@ Overview of the metadata of the filtered 562 _B. fragilis_ genomes used in this 
     * Completeness: Completeness of the assembly (CheckM) <br>
     * Contamination: Contamination of the assembly (CheckM) <br>
     * Strain_heterogeneity: Strain heterogeneity of the assembly (CheckM) <br>
-    * subdivision: Subdivision of genome, 1 represents _B. fragilis sensu stricto_, 2 represents _B. fragilis A_ <br>
+    * subdivision: Subdivision of genome, 1 represents <i>B. fragilis sensu stricto</i>, 2 represents <i>B. fragilis A</i> <br>
     * lineages: Assigned lineage of the genome, only for subdivision 1 (fastbaps) <br>
     * letter: Assigned letter of the lineag, only for subdivision 1 (fastbaps) <br>
     * color: Lineage color, only for subdivision 1 <br>
@@ -64,7 +64,7 @@ Overview of the metadata of the filtered 562 _B. fragilis_ genomes used in this 
 
 ### Supplementary Table 2: Multi locus sequence typing
 
--   The [standard output](Supplementary_data/Multi_locus_sequence_typing/mlst.stdout) of (MLST)[https://github.com/tseemann/mlst] using the B. fragilis scheme.
+-   The [standard output](Supplementary_data/Multi_locus_sequence_typing/mlst.stdout) of [MLST](https://github.com/tseemann/mlst) using the `B. fragilis` scheme.
 -   The [novel alleles](Supplementary_data/Multi_locus_sequence_typing/mlst_novel_alleles.fasta) identified in the MLST analysis.
 -   The [lineage associated Sequencing Types](Supplementary_data/Multi_locus_sequence_typing/lineage_ST.tsv).
 
@@ -107,24 +107,28 @@ _**Supplementary Figure 2:**Genome synteny plot visualised within [MAUVE (v2.4.0
 
 ### Supplementary figure 3
 
+_**Supplementary Figure 3:** An approximate maximum likelihood tree using a recombination-filtered whole genome alignment with general time reversible model. Assemblies are highlighted in their corresponding lineages and annotated with their Multi Locus Sequencing Tag (MLST). Lines corresponding to the lineage represent distinct MLSTs, tags are colored by lineage. Genomes that couldn't be annotated with the `B. fragilis`schema are in grey._
+
 ### Supplementary figure 4
 
-Contribution of recombination over mutation to the sequence divergence in each lineage
+_**Supplementary Figure 4:** Barplot displaying the contribution ratio of recombination over mutation to the sequence divergence in each lineage._
 
 ### Supplementary figure 5
 
+_**Supplementary Figure 5:** Overview of pangenome statistics with (**A**) the pangenome size as a function of the number of genomes and (**B**) the gene occurrence distribution with its typical U-shape, coloured by eggnog’s annotated functional COG categories._
+
 ### Supplementary figure 6
 
-_**Supplementary Figure 5: Two examples of significantly associated gene cluster to lineages.** (**A**)Significantly associated gene cluster of lineage J containing the genes: bshA, bshB_, dxs, tilS, ispD, rmlB, rpiB, strE, tarF and 6 hypothetical proteins. Genes were highlighted within assembly GCF*00856913.1. (**B**) Significantly associated gene cluster of lineage Q containing the genes: tuaB, gmhB, epsM and arnB. Genes are highlighted within GCA_016623685.1 using SnapGene software (www.snapgene.com).*
+_**Supplementary Figure 6: Two examples of significantly associated gene cluster to lineages.** (**A**)Significantly associated gene cluster of lineage J containing the genes: bshA, bshB, dxs, tilS, ispD, rmlB, rpiB, strE, tarF and 6 hypothetical proteins. Genes were highlighted within assembly GCF_00856913.1. (**B**) Significantly associated gene cluster of lineage Q containing the genes: tuaB, gmhB, epsM and arnB. Genes are highlighted within GCA_016623685.1 using SnapGene software (www.snapgene.com)._
 
 ### Supplementary figure 7
 
-_**Supplementary Figure 6: Comparison of the functional categories across and within lineages.** (**A**) A proportional bar chart for each lineage representing the fraction of COG’s functional categories within the core and accessory genome. (**B**) A Heatmap result of enrichment analysis for comparing the core genome’s COG functional categories with the accessory genome’s COG functional categories coloured by the Benjamini-Hochberg corrected p-value._
+_**Supplementary Figure 7: Comparison of the functional categories across and within lineages.** (**A**) A proportional bar chart for each lineage representing the fraction of COG’s functional categories within the core and accessory genome. (**B**) A Heatmap result of enrichment analysis for comparing the core genome’s COG functional categories with the accessory genome’s COG functional categories coloured by the Benjamini-Hochberg corrected p-value._
 
 ### Supplementary figure 8
 
-_**Supplementary Figure 7:** Distribution of significantly associated drug resistance genes to specific lineages (chisq-test), colored by lineage._
+_**Supplementary Figure 8:** Distribution of significantly associated drug resistance genes to specific lineages (chisq-test), colored by lineage._
 
 ### Supplementary figure 9
 
-_**Supplementary Figure 8:** Distribution of all drug resistant genes across the entire B. fragilis sensu stricto population based on the core genome tree._
+_**Supplementary Figure 9:** Distribution of all drug resistant genes across the entire B. fragilis sensu stricto population based on the core genome tree._
