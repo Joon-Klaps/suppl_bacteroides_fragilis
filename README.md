@@ -10,57 +10,56 @@ Overview of the metadata of the filtered 562 _B. fragilis_ genomes used in this 
 
 <details>
 <summary>Supplementary Table 1: column names</summary>
-- genome: Genome name
-- organism: Organism name
-- contigs: Number of contigs (Prokka)
-- bases: Number of bases (Prokka)
-- tRNA: Number of tRNA (Prokka)
-- rRNA: Number of rRNA (Prokka)
-- CDS: Number of CDS (Prokka)
-- tmRNA: Number of tmRNA (Prokka)
-- repeat_region: Number of repeat regions (Prokka)
-- OriginalName: Original name of the genome (NCBI)
-- Study_set: Study set of the genome - UHGG| Genbank| RCC
-- GenomeType: Genome type - MAG| Isolate
-- Sample_accession: Sample accession number (NCBI)
-- Country: Country of origin
-- Continent: Continent of origin
-- Host : Host of the sample
-- Source: Source of the sample
-- Disease: Disease associated with patient (if any)
-- SamplingDate: Date of sampling
-- Latitude: Latitude of origin
-- Longtitude: Longtitude of origin
-- contigs_0_bp: Number of contigs with more then 0 bp (Quast)
-- contigs_1000_bp: Number of contigs with more then 1000 bp (Quast)
-- contigs_5000_bp: Number of contigs with more then 5000 bp (Quast)
-- contigs_10000_bp: Number of contigs with more then 10000 bp (Quast)
-- contigs_25000_bp: Number of contigs with more then 25000 bp (Quast)
-- contigs_50000_bp: Number of contigs with more then 50000 bp (Quast)
-- Total_length_0_bp: Total number of bases in contigs with more then 0 bp (Quast)
-- Total_length_1000_bp: Total number of bases in contigs with more then 1000 bp (Quast)
-- Total_length_5000_bp: Total number of bases in contigs with more then 5000 bp (Quast)
-- Total_length_10000_bp: Total number of bases in contigs with more then 10000 bp (Quast)
-- Total_length_25000_bp: Total number of bases in contigs with more then 25000 bp (Quast)
-- Total_length_50000_bp: Total number of bases in contigs with more then 50000 bp (Quast)
-- N_contigs: Number of contigs (Quast)
-- Largestcontig: Length of the largest contig (Quast)
-- Total_length: Total number of bases of the assembly (Quast)
-- GC: GC % of the assembly (Quast)
-- N50: N50 of the assembly (Quast)
-- N75: N75 of the assembly (Quast)
-- L50: L50 of the assembly (Quast)
-- L75: L75 of the assembly (Quast)
-- Ns_per_100_kbp: Number of N's per 100 kbp (Quast)
-- Marker_lineage: Used marker lineage (CheckM)
-- Completeness: Completeness of the assembly (CheckM)
-- Contamination: Contamination of the assembly (CheckM)
-- Strain_heterogeneity: Strain heterogeneity of the assembly (CheckM)
-- subdivision: Subdivision of genome, 1 represents _B. fragilis sensu stricto_, 2 represents _B. fragilis A_
-- lineages: Assigned lineage of the genome, only for subdivision 1 (fastbaps)
-- letter: Assigned letter of the lineag, only for subdivision 1 (fastbaps)
-- color: Lineage color, only for subdivision 1
-
+    * genome: Genome name <br>
+    * organism: Organism name <br>
+    * contigs: Number of contigs (Prokka) <br>
+    * bases: Number of bases (Prokka) <br>
+    * tRNA: Number of tRNA (Prokka) <br>
+    * rRNA: Number of rRNA (Prokka) <br>
+    * CDS: Number of CDS (Prokka) <br>
+    * tmRNA: Number of tmRNA (Prokka) <br>
+    * repeat_region: Number of repeat regions (Prokka) <br>
+    * OriginalName: Original name of the genome (NCBI) <br>
+    * Study_set: Study set of the genome - UHGG| Genbank| RCC <br>
+    * GenomeType: Genome type - MAG| Isolate <br>
+    * Sample_accession: Sample accession number (NCBI) <br>
+    * Country: Country of origin <br>
+    * Continent: Continent of origin <br>
+    * Host : Host of the sample <br>
+    * Source: Source of the sample <br>
+    * Disease: Disease associated with patient (if any) <br>
+    * SamplingDate: Date of sampling <br>
+    * Latitude: Latitude of origin <br>
+    * Longtitude: Longtitude of origin <br>
+    * contigs_0_bp: Number of contigs with more then 0 bp (Quast) <br>
+    * contigs_1000_bp: Number of contigs with more then 1000 bp (Quast) <br>
+    * contigs_5000_bp: Number of contigs with more then 5000 bp (Quast) <br>
+    * contigs_10000_bp: Number of contigs with more then 10000 bp (Quast) <br>
+    * contigs_25000_bp: Number of contigs with more then 25000 bp (Quast) <br>
+    * contigs_50000_bp: Number of contigs with more then 50000 bp (Quast) <br>
+    * Total_length_0_bp: Total number of bases in contigs with more then 0 bp (Quast) <br>
+    * Total_length_1000_bp: Total number of bases in contigs with more then 1000 bp (Quast) <br>
+    * Total_length_5000_bp: Total number of bases in contigs with more then 5000 bp (Quast) <br>
+    * Total_length_10000_bp: Total number of bases in contigs with more then 10000 bp (Quast) <br>
+    * Total_length_25000_bp: Total number of bases in contigs with more then 25000 bp (Quast) <br>
+    * Total_length_50000_bp: Total number of bases in contigs with more then 50000 bp (Quast) <br>
+    * N_contigs: Number of contigs (Quast) <br>
+    * Largestcontig: Length of the largest contig (Quast) <br>
+    * Total_length: Total number of bases of the assembly (Quast) <br>
+    * GC: GC % of the assembly (Quast) <br>
+    * N50: N50 of the assembly (Quast) <br>
+    * N75: N75 of the assembly (Quast) <br>
+    * L50: L50 of the assembly (Quast) <br>
+    * L75: L75 of the assembly (Quast) <br>
+    * Ns_per_100_kbp: Number of N's per 100 kbp (Quast) <br>
+    * Marker_lineage: Used marker lineage (CheckM) <br>
+    * Completeness: Completeness of the assembly (CheckM) <br>
+    * Contamination: Contamination of the assembly (CheckM) <br>
+    * Strain_heterogeneity: Strain heterogeneity of the assembly (CheckM) <br>
+    * subdivision: Subdivision of genome, 1 represents _B. fragilis sensu stricto_, 2 represents _B. fragilis A_ <br>
+    * lineages: Assigned lineage of the genome, only for subdivision 1 (fastbaps) <br>
+    * letter: Assigned letter of the lineag, only for subdivision 1 (fastbaps) <br>
+    * color: Lineage color, only for subdivision 1 <br>
 </details>
 
 ### Supplementary Table 2: Multi locus sequence typing
